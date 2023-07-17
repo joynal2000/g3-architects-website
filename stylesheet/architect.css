@@ -1,6 +1,6 @@
 /*work sans font from google font */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;600;700;800&display=swap');
-
+/* shared style */
 *{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
@@ -49,8 +49,20 @@ nav li a{
    text-align: center;
    margin: 0 auto;
 }
+.banner{
+    justify-content: center;
+    margin: 0 auto;
+}
 .banner-title{
     font-size: 4rem;
     font-weight: 700;
     color: #131313;
 }
+/*Feartures style */
+.feature-container{
+    display: flex;
+    margin-top: 50px;
+}
+
+
+
