@@ -77,6 +77,14 @@ nav li a{
 /*Some Facts section start*/
 .facts-card-container{
     display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.facts-card{
+    border: 1px solid #FF900E;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px 30px;
 }
 
 
