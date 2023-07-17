@@ -70,6 +70,10 @@ nav li a{
 }
 /* Features you will Love and Enjoy */
 
+.love-container{
+    display: flex;
+}
+
 /*Some Facts section start*/
 .facts-card-container{
     display: flex;
